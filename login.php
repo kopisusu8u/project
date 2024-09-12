@@ -1,10 +1,3 @@
-<?php
-    $respon = "refresh";
-    $waktu = 2;
-?><?php
-$respon = "refresh";
-$waktu = 2;
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

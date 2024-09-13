@@ -11,7 +11,7 @@
     <div class="bg-white rounded-lg shadow-lg p-6 w-full max-w-md">
         <h1 class="text-3xl md:text-4xl font-extrabold text-center text-gray-800 mb-4 md:mb-6">Create an Account</h1>
         <p class="text-center text-gray-500 mb-4 md:mb-6">Please fill in your details to register</p>
-        <form action="" method="post" id="registerForm" class="space-y-4">
+        <form action="login.php" method="post" id="registerForm" class="space-y-4">
             <div>
                 <label class="block text-sm font-medium text-gray-700" for="username">Username</label>
                 <input class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-purple-500 focus:outline-none" 
@@ -99,7 +99,7 @@
         checkUsername();
         
         if (isFormValid) {
-            console.log("Form submitted");
+            form.submit();
             alert("Form submitted");
         } else {
             event.preventDefault();
